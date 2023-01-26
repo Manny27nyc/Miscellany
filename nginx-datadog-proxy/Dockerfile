@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:22.04
 LABEL maintainer="Misiu Pajor misiu.pajor@datadoghq.com"
 
 WORKDIR /app
