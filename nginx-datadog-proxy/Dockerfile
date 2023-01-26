@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:kinetic-20220830
 LABEL maintainer="Misiu Pajor misiu.pajor@datadoghq.com"
 
 WORKDIR /app
