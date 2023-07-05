@@ -23,7 +23,7 @@ RUN mvn -e clean package
 RUN ls -lah /prj/target/
 RUN ls -lah /prj/target/
 
-FROM ubuntu as release
+FROM ubuntu:kinetic as release
 
 COPY --from=build /prj/target/ddog /usr/local/bin/ddog
 RUN ls -lah /usr
